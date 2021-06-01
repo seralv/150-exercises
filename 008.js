@@ -1,9 +1,10 @@
+const number = prompt('Insert a number');
 
-for (let year = 2014; year < 2050; year++) {
-    // console.log(`year`, year);
-    let day = new Date(year, 00, 01);
-    // console.log(`day`, day)
-        if ( day.getDay() === 0 ) {
-        console.log(`El primero de enero de ${ year } fue en domingo`);
-        }    
+const randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log( randomNumber );
+
+if ( number == randomNumber ) {
+    console.log( 'Good work' );
+} else {
+    console.log( 'Not matched' );
 }
