@@ -8,14 +8,32 @@
 <body>
 
     <div id="app">
-        <form>
-            <label for="">Celsius</label>
-            <input type="number" id="num1" value="0">
-            <label for="">Farenheit</label>
-            <input type="number" id="num2" value="0">
-            <input type="button" class="btn btn-primary" id="temperature" value="Convert Temperature">
-            <h1 id="result"></h1>
-        </form>
+        <div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" id="num1" value="0">
+                </div>
+                <div class="col">
+                    <input type="text" id="num2" value="0">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Celsius</label>
+                </div>
+                <div class="col">
+                    <label for="">Farenheit</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="button" class="btn btn-primary" id="celsius" value="Convert to Farenheit">
+                </div>
+                <div class="col">
+                    <input type="button" class="btn btn-danger" id="faren" value="Convert to Celsius">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="011.js"></script>
