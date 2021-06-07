@@ -1,0 +1,1 @@
+document.getElementById( 'app' ).innerHTML = '<button class="btn btn-primary">Hola</button>';
